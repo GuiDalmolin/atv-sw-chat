@@ -1,0 +1,448 @@
+body {
+
+    display: block;
+
+    margin: 0px;
+
+}
+
+
+
+.main {
+
+    height: 100vh;
+
+    display: grid;
+
+    grid-template-rows: 5% 80% 15%;
+
+}
+
+
+
+.cabecalho {
+
+    font-size: 33px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-bottom: 1px solid black;
+
+}
+
+
+
+.footer {
+
+    display: grid;
+
+    grid-auto-flow: column;
+
+    grid-template-columns: 85% 15%;
+
+    border-top: 1px solid black;
+
+}
+
+
+
+.input-area {
+
+    height: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+.input-area input {
+
+    width: 95%;
+
+    height: 70%;
+
+    font-size: 3vh;
+
+    color: #7c7c7c;
+
+    outline: none;
+
+    border: none;
+
+    background: #e5e5e5;
+
+    border-radius: 30px;
+
+    padding-left: 30px;
+
+}
+
+
+
+.button-area {
+
+    height: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+.button-area button {
+
+    width: 95%;
+
+    height: 70%;
+
+    font-size: 4vh;
+
+    border-radius: 30px;
+
+    border: none;
+
+    background: #beffc0;
+
+    cursor: pointer;
+
+    color: #00a900;
+
+}
+
+
+
+.button-area button:hover{
+
+    opacity: 80%;
+
+}
+
+
+
+.button-area button:active{
+
+    opacity: 90%;
+
+}
+
+
+
+.conteudo {
+
+    overflow: auto;
+
+}
+
+
+
+.linha {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+
+.label {
+
+    margin-inline: 20px;
+
+    position: relative;
+
+    top: 20px;
+
+    opacity: 50%;
+
+}
+
+
+
+.mensagem {
+
+    height: 30px;
+
+    width: 50%;
+
+    border-radius: 30px;
+
+    padding: 20px;
+
+}
+
+
+
+.atendente {
+
+    align-items: flex-start;
+
+}
+
+
+
+.atendente-msg {
+
+    background: #dcffd5;
+
+}
+
+
+
+.voce{
+
+    align-items: flex-end;
+
+}
+
+
+
+.voce-msg{
+
+    background: #d5ecff;
+
+}
+
+
+
+/* body {
+
+    display: block;
+
+    margin: 0px;
+
+}
+
+
+
+.main {
+
+    height: 100vh;
+
+    display: grid;
+
+    grid-template-rows: 5% 80% 15%;
+
+}
+
+
+
+.cabecalho {
+
+    font-size: 33px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-bottom: 1px solid black;
+
+}
+
+
+
+.footer {
+
+    width: 100%;
+
+}
+
+
+
+.input-area {
+
+    height: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+.input-area input {
+
+    width: 95%;
+
+    height: 70%;
+
+    font-size: 3vh;
+
+    color: #7c7c7c;
+
+    outline: none;
+
+    border: none;
+
+    background: #e5e5e5;
+
+    border-radius: 30px;
+
+    padding-left: 30px;
+
+}
+
+
+
+.button-area {
+
+    height: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+.button-area button {
+
+    width: 95%;
+
+    height: 70%;
+
+    font-size: 4vh;
+
+    border-radius: 30px;
+
+    border: none;
+
+    background: #beffc0;
+
+    cursor: pointer;
+
+    color: #00a900;
+
+}
+
+
+
+.button-area button:hover{
+
+    opacity: 80%;
+
+}
+
+
+
+.button-area button:active{
+
+    opacity: 90%;
+
+}
+
+
+
+.conteudo {
+
+    overflow: auto;
+
+}
+
+
+
+.linha {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+
+.label {
+
+    margin-inline: 20px;
+
+    position: relative;
+
+    top: 20px;
+
+    opacity: 50%;
+
+}
+
+
+
+.mensagem {
+
+    height: 30px;
+
+    width: 50%;
+
+    border-radius: 30px;
+
+    padding: 20px;
+
+}
+
+
+
+.atendente {
+
+    align-items: flex-start;
+
+}
+
+
+
+.atendente-msg {
+
+    background: #d5ecff;
+
+}
+
+
+
+.voce{
+
+    align-items: flex-end;
+
+}
+
+
+
+.voce-msg{
+
+    background: #dcffd5;
+
+}
+
+
+
+form#meuform {
+
+    display: grid;
+
+    grid-auto-flow: column;
+
+    grid-template-columns: 85% 15%;
+
+    border-top: 1px solid black;
+
+    height: 100%;
+
+} */
+
